@@ -1,62 +1,86 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+## Booking Home Backend
+> Booking Home Backend is a RESTful API that allows users to rent or buy a home.
 
-# Project Name
+## API Manipulation and Endpoints
 
-> Description the project.
+If you need further information about the endpoints you can view the documentation navigating to /api-docs.
+If you would like to clone and view it on your side then try `http://localhost:3000/api-docs`.
 
+![ERD](https://user-images.githubusercontent.com/39459774/168259420-3f46595f-2409-43c2-97f7-5226e076bd4c.png)
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Ruby
+- Ruby on Rails
+- PostgreSQL
 
-## Live Demo (if available)
+## Frontend Link
 
-[Live Demo Link](https://livedemo.com)
-
+[Frontend Link](https://github.com/mohamedelshamy55/Booking-Home-Frontend)
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+- [Install Ruby](https://www.ruby-lang.org/en/documentation/installation/) on your local machine 
+- [Install Ruby on Rails](https://guides.rubyonrails.org/v5.1/getting_started.html)
+- Clone [this repository](https://github.com/mohamedelshamy55/Booking-Home-Backend.git)
+  ```
+  git clone git@github.com/mohamedelshamy55/Booking-Home-Backend.git
+  ```
+- To get started, In the root directory run:
+  ```
+  gem install bundler
+  ```
+  Then run:
+  ```
+  bundle install
+  ```
+  To start the server run: 
 
+  ```
+  rails s
+  ```
+  Open the browser with `localhost:3000`
 
-To get a local copy up and running follow these simple example steps.
+  
+## After installing bundle
 
-### Prerequisites
+Please run the following commands `rails db:create` `rails db:migrate` `rails s`
 
-### Setup
+## Tests
+```
+bundle exec rspec
+```
+Or
+```
+rspec spec
+```
+### To track linter errors locally follow these steps:  
 
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+Track linter errors run:
+```
+rubocop
+```
 
 ## Authors
 
-👤 **Author1**
+:woman: **Meri Gogichashvili**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- [GitHub](https://github.com/Meri-MG)
+- [LinkedIn](https://www.linkedin.com/in/meri-gogichashvili/)
 
-👤 **Author2**
+:man: **Sam Mong'are**
+- [GitHub](https://github.com/Mosams)
+- [LinkedIn](https://www.linkedin.com/in/samwel-mongare/)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+:man: **Mohamed ElShamy**
+- [GitHub](https://github.com/mohamedelshamy55)
+- [LinkedIn](https://www.linkedin.com/in/mohamedelshamy85/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/mohamedelshamy55/Booking-Home-Backend/issues).
 
 ## Show your support
 
@@ -64,9 +88,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Thanks to our reviewers and coding partners.
 
 ## 📝 License
 
